@@ -7,4 +7,6 @@
 - 一些文档中没有说明的样式问题。居中margin:0 auto不可用
 - image load事件官方文档demo出错。image onload='onload'  正确写法 image @load='onload' 如需要参数 @load='onload($event, param1, param2 )'
 - Android情况下要考虑虚拟键和状态栏对页面布局的影响。如2k分辨率下实际上可显示的高度为2560px减去虚拟键和状态栏的高度（不同机型不一样）
+- style不支持嵌套写法，css选择器大多不能用推荐使用类名选择器
+- 回调函数只支持箭头函数（某些情况下未查明原因）
 - weex -version v1.0.5
